@@ -1,0 +1,103 @@
+<<!DOCTYPE html>
+<html lang="en-us">
+<meta charset="utf-8">
+<head>
+  <title>Psychic Game</title>
+  <!-- Added link to Boostrap Library -->
+  <link rel="stylesheet" type="text/css" href="assets/css/pschyicstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/assets/css/custom.min.css">
+
+      <h1 class=page-header> JavaScript Psychic Game</h1>
+
+      <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">DR. ANGUS OGUBUIKE</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">            
+            <li class="dropdown">
+              <ul class="dropdown-menu" aria-labelledby="download">
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="psychic.html" target="_blank">Home</a></li>
+            <li><a href="psychic.html" target="_blank">Instruction</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</head>
+<body>
+<div class="container">
+      <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-6">
+            <h3>Instruction</h3>
+             <p class="input-sm text-justify">This app randomly picks a letter, and the user has to guess which letter the app choses</p>
+             <img class="pull-left list-group-item" src="assets\image\Player.jpg" alt="player photo" width="244" height="156">
+            <ul class ="input-sm text-justify list-group-item">
+              <li>The player picks a random letter</li>
+              <li>The computer makes a guess</li>
+              <li>If the player's choice matches the computer choice, the player wins</li>
+              <li>The user is allowed to make ten gueses</li>
+              <li>When the player wins, the wins counter increases and prompt the user to continue or not</li>
+              <li>The game restarts without a page refresh if the player types yes</li>
+              <li>When the player loses, the Losses counter increases and prompt the user to continue or not</li>
+              <li>The game restarts without a page refresh if the player types yes</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <div class="sponsor">
+                <h3>Game Procedure</h3>
+                <div>
+                <p id="psychicGame" class="panel-title">Start Game</p>
+                <p id="myGuesses" class="panel-title"> User's Guesses</p>
+                <p id="compGuesses" class="panel-title"> Computer Guesses</p>
+                <p id="wins" class="panel-title"> Record Results</p>
+                <p id="leftGuesses" class="panel-title">Remaining Guesses</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+<div class="row">
+<div class="col-lg-12">
+            <div class="sponsor">
+                <h3 class = "input-sm text-center list-group-item">Connect with Me</h3>
+                <a class="badge" href="https://github.com/druchefavour">
+                 <img class="img-circle" src="assets\image\github.png" alt="github Page" width="54" height="46">
+                </a>
+                <a class="badge" href="https://www.linkedin.com/in/angusdruche/">
+                <img class="img-circle" src="assets\image\linked_in.png" alt="linkedIn Page" width="54" height="46">
+                </a>
+                <a class="badge" href="http://stackoverflow.com/users/6937888/dr-angus-uche-ogubuike">
+                <img class="img-circle" src="assets\image\stackoverflow.png" alt="stackoverflow Page" width="54" height="46">
+                </a>
+                </div>
+            </div>
+            <br><br>
+<footer>
+        <div class="row">
+          <div class="col-lg-12">
+           <p class="text-center">@ Copyright 2016 Dr. Angus Ogubuike</p>
+          </div>
+            </div>
+      </footer>
+
+<script type="text/javascript" src="assets/js/psychic.js"></script> 
+
+</body>
+</html>
